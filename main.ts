@@ -122,22 +122,22 @@ scene.setBackgroundImage(img`
     7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
     `)
 let uomo = sprites.create(img`
-    ....ffffff.........ccc..
-    ....ff22ccf.......cc4f..
-    .....ffccccfff...cc44f..
-    ....cc24442222cccc442f..
-    ...c9b4422222222cc422f..
-    ..c999b2222222222222fc..
-    .c2b99111b222222222c22c.
-    c222b111992222ccccccc22f
-    f222222222222c222ccfffff
-    .f2222222222442222f.....
-    ..ff2222222cf442222f....
-    ....ffffffffff442222c...
-    .........f2cfffc2222c...
-    .........fcc2ffffffff...
-    ..........fc2ffff.......
-    ...........fffff........
+    . . . . . . . e e e e e . . . . 
+    . . . . . e e 2 2 2 2 2 e . . . 
+    . . . . e e 2 2 2 2 2 2 2 e . . 
+    . . . . e 9 4 2 2 2 2 2 4 b e . 
+    . . e e 9 9 4 4 2 2 2 2 4 9 b e 
+    . e 2 2 9 9 4 4 4 2 2 2 4 9 9 e 
+    e 2 2 2 9 9 2 4 4 4 4 4 2 9 9 e 
+    e 2 2 2 9 9 e e e e e e e 9 9 e 
+    e 2 2 2 9 b e b b b e b e b 9 e 
+    e 2 e e e e b b b b e b b e b e 
+    e e 3 3 e e 2 2 2 2 e 2 2 e e e 
+    e 3 3 e e e e e e e e e e e e e 
+    e e e e e e e e e e e e e e e e 
+    e e e e f f f e e e e f f f e e 
+    . e e f b c c f e e f b c c f . 
+    . . . . b b f . . . . b b f . . 
     `, SpriteKind.Player)
 controller.moveSprite(uomo)
 uomo.setStayInScreen(true)
