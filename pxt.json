@@ -1,5 +1,5 @@
 {
-    "name": "esercizzio 01",
+    "name": "gioco blaze runner",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -16,7 +16,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.9.6",
+        "target": "1.9.7",
         "targetId": "arcade"
     },
     "supportedTargets": [
